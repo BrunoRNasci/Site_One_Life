@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: "font1";
+    src: url(fontes_onelife/Big_Shoulders_Display/static/BigShouldersDisplay-Regular.ttf) format('opentype');
+}
+
+@font-face{
+    font-family: "font2";
+    src: url(fontes_onelife/Bebas_Neue/BebasNeue-Regular.ttf) format('opentype');
+}
+
+@font-face{
+    font-family: "font3";
+    src: url(fontes_onelife/Open_Sans/static/OpenSans/OpenSans-Regular.ttf) format('opentype');
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    background-image: url(imagens_onelife/fundo_header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    width: 20%;
+    height: auto;
+    float: left;
+    padding-left: 60px;
+
+}
+
+#logo a{
+    float: left !important;
+    font-family: "font1";
+    text-decoration: none;
+    color: black !important;
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 60px;
+}
+
+#logo img{
+    width: 50px;
+    height: 80px;
+    padding-top: 10px;
+}
+
+#cabecalho a{
+    font-family: "font1";
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 35px;
+    float: right;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+#top_main{
+    width: 100%;
+    height: 860px;
+    background-color: #41738F;
+    
+}
+
+#titulos{
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+#titulos h1{
+    width: 700px;
+    height: auto;
+    padding-top: 210px;
+    padding-left: 70px;
+    font-family: "font1";
+    color: white;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: capitalize;
+    
+}
+
+#titulos h2{
+    width: 700px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 75px;
+    font-family: "font1";
+    color: white;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: capitalize;
+    float: left;
+}
+
+#titulos h3{
+    width: 400px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 80px;
+    margin: 0;
+    font-family: "font2";
+    color: #FFE713;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #595109;
+}
+
+#imagens{
+    width: auto;
+    height: 730px;
+}
+
+#paraquedas1{
+    position: relative;
+    width: 534px;
+    height: 621px;
+    float: right;
+    top: 95px;
+    z-index: 1;
+}
+
+#balao_superior{
+    position: absolute;
+    width: 346px;
+    height: 315px;
+    border-radius: 40px;
+    left: 710px;
+    top: 480px;
+    z-index: 2;
+}
+
+#saiba_mais{
+    position: absolute;
+    width: 410px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #DF1B1B;
+    float: left;
+    top: 560px;
+    left: 70px;
+}
+
+#saiba_mais a{
+    color: #F9F9F9;
+    font-family: "font2";
+    font-weight: 400;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+#estatisticas{
+    position: absolute;
+    top: 700px;
+    left: 96px;
+    float: left;
+}
+
+#stats1{
+    width: 200px;
+    height: 250px;
+    float: left;
+    border-right: 15px double white;
+}
+
+#stats1 h1{
+    font-family: "font2";
+    font-weight: 400;
+    font-size: 90px;
+    color: #FFE713;
+}
+
+#stats1 p{
+    font-family: "font2";
+    color: #FBF9F9;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+#stats2{
+    width: 200px;
+    height: 250px;
+    float: left;
+    
+}
+
+#stats2 h1{
+    font-family: "font2";
+    font-weight: 400;
+    font-size: 90px;
+    color: #FFE713;
+}
+
+#stats2 p{
+    font-family: "font2";
+    color: #FBF9F9;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+#main_meio{
+    width: 100%;
+    height: 1060px;
+    background-color: #D9F1F2;
+}
+
+#img_meio{
+    width: 100%;
+    height: 126px;
+    background-image: url(imagens_onelife/img_meio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#textos_meio{
+    float: right;
+    width: 850px;
+    height: 860px;
+    padding-bottom: 50px;
+}
+
+#textos_meio h1{
+    width: 451px;
+    height: 180px;
+    font-family: "font1";
+    font-size: 150px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: capitalize;
+    color: #F5E024;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #595109;
+    float: right;
+    padding-right: 366px;
+}
+
+#txt1{
+    width: 600px;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: "font3";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8C8686;
+    float: right;
+    padding-top: 15px;
+    padding-right: 209px;
+}
+
+#txt2{
+    width: 600px;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: "font3";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8C8686;
+    float: right;
+    padding-right: 100px;
+    padding-top: 15px;
+    
+}
+
+#txt3{
+    width: 600px;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: "font3";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8C8686;
+    float: right;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+#imagens_meio{
+    width: 40%;
+    height: 830px;
+}
+
+#balao_meio1{
+    position: relative;
+    width: 410px;
+    height: 517px;
+    float: left;
+    border-radius: 0px 25px 25px 0px;
+    top: 215px;
+    z-index: 1;
+}
+
+#balao_meio2{
+    position: relative;
+    width: 325px;
+    height: 326px;
+    bottom: 500px;
+    left: 300px;
+    float: left;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+#balao_meio3{
+    position: relative;
+    width: 429px;;
+    height: auto;
+    bottom: 200px;
+    left: 300px;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+#main_bottom{
+    width: 100%;
+    height: 860px;
+    background-color: #45BAC1;
+}
+
+#img_bottom{
+    position: absolute;
+    width: 100%;
+    height: 161px;
+    background-image: url(imagens_onelife/fundo_main_bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paraquedas2{
+    position: relative;
+    width: 685px;
+    height: 630px;
+    float: right;
+    left: 50px;
+    top: 145px;
+
+}
+
+#textos_bottom{
+    float: left;
+    width: 30%;
+    height: auto;
+    top: 20px;
+}
+
+#textos_bottom h1{
+    width: 451px;
+    height: 180px;
+    font-family: "font2";
+    font-size: 150px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
+    color: #F5E024;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #595109;
+    float: left;
+    padding-left: 60px;
+    padding-top: 140px;
+}
+
+#txt4{
+    width: 600px;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: "font3";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8C8686;
+    float: left;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+#txt5{
+    width: 600px;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: "font3";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8C8686;
+    float: left;
+    padding-top: 15px;
+    padding-left: 40px;   
+}
+
+footer{
+    width: 100%;
+    height: 340px;
+    background-color: #41738F;
+}
+
+#logo_footer{
+    width: auto;
+    height: 230px;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+
+
+#contatos{
+    width: 700px;
+    height: 100%;
+    margin-right: 400px;
+    float: right;
+}
+
+#contatos h1{
+    text-transform: capitalize;
+    color: #FFE713;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    font-family: "font1";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #595109;
+    padding-right: 160px;
+    float: right;
+}
+
+#insta{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    float: left;
+}
+
+#insta img{
+    width: auto;
+    height: 50px;
+    float: left;
+}
+
+#insta p{
+    font-family: "font1";
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    float: right;
+}
+
+#gmail{
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    padding-top: 150px;
+    padding-left: 50px;
+    float: left;
+}
+
+#gmail img{
+    width: auto;
+    height: 50px;
+    float: left;
+}
+
+#gmail p{
+    font-family: "font1";
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+    float: right;
+}
+
+#wpp{
+    width: 315px;
+    height: 50px;
+    padding-top: 10px;
+    float: right;
+}
+
+#wpp img{
+    width: auto;
+    height: 50px;
+    float: right;
+}
+
+#wpp p{
+    font-family: "font1";
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    float: left;
+}
+
+#face{
+    width: 295px;
+    height: 50px;
+    padding-top: 45px;
+    padding-left: 300px;
+    float: right;
+}
+
+#face img{
+    width: auto;
+    height: 50px;
+    float: right;
+}
+
+#face p{
+    font-family: "font1";
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    float: left;
+}
