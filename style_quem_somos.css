@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: "font1";
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font2";
+    src: url(fontes/OpenSans-VariableFont_wdth\,wght.ttf) ;
+}
+
+@font-face{
+    font-family: "font3";
+    src: url(fontes_onelife/Big_Shoulders_Display/static/BigShouldersDisplay-Regular.ttf);
+}
+
+
+#img1 {
+    width: 35px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 2em;
+}
+
+
+#logo {
+    margin-left: 5em;
+}
+
+#logo a{
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    font-family: "font2";
+    font-size: 30px;
+}
+
+
+#cabecalho {
+    background-image: url("Imagens_quem_somos/retangulo.png");
+}
+
+#menu {
+    display: flex;
+    background-size: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30em;
+    margin-right: 5em;
+    font-size: 19px;
+    font-family: "font2";
+}
+
+#menu a{
+    font-family: "font3";
+    font-weight: 400;
+    font-size: 35px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+}
+
+
+#top_main {
+    background-color: #41738F;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#titulos {
+    text-align: center;
+    margin-bottom: 5em;
+    height: 150px;
+    font-size: 30px;
+    font-family: "font1";
+}
+
+   
+
+
+#img4{
+    height: 50px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: -500px;
+    width: 2000px;
+}
+
+#titulos p {
+    font-size: 30px;
+    font-family: "font2";
+}
+
+#missao {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2em;
+    background-color: #45BAC1;
+    height: 250px;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: "font1";
+}
+
+#missao p {
+    font-size: 30px;
+    font-family: "font2";
+}
+
+#img2 {
+    height: 50px;
+    position: relative;
+    float: right;
+    margin-top: -105px;
+    margin-right: 555px;
+
+}
+
+#img3{
+    padding-bottom: -110px;
+    height: 30px;
+    position: relative;
+    margin-bottom: 77px;
+    margin-top: -500px;
+    width: 2000px;
+}
+
+#visao {
+    background-color: #41738F;
+    text-align: center;
+    height: 150px;
+    font-size: 40px;
+    padding-bottom: 100px;
+    margin-left: -450px;
+    font-family: "font1";
+}
+
+#visao p {
+    text-align: center;
+    font-size: 20px;
+    height: auto;
+    padding-bottom: -100px;
+    font-family: "font2";
+}
+
+#valores {
+    text-align: center;
+    height: 100px;
+    background-color: #41738F;
+    float: right;
+    font-family: "font1";
+}
+
+#valores p {
+    text-align: center;
+    font-size: 20px;
+    height: 150px;
+    margin-bottom: 50px;
+    padding-bottom: -100px;
+    font-family: "font2";
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #45BAC1;
+    height: 342px;
+}
+
+#logo_footer {
+    /*width: auto;*/
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+
+
+#contatos {
+    width: 700px;
+    height: 100px;
+    margin-right: 400px;
+    float: right;
+    text-align: center;
+}
+
+#contatos h1 {
+    text-transform: capitalize;
+    color: #FFE713;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    font-family: "font1";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #595109;
+    padding-right: 160px;
+    float: right;
+    font-family: "font1";
+}
+
+#insta {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    float: left;
+}
+
+#insta img {
+    width: auto;
+    height: 50px;
+    margin-right: 510px;
+}
+
+#insta p {
+    font-family: "font1";
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    float: right;
+
+}
+
+#gmail {
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    padding-top: 150px;
+    padding-left: 50px;
+    float: left;
+}
+
+#gmail img {
+    width: auto;
+    height: 50px;
+    float: left;
+}
+
+#gmail p {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+    float: right;
+    font-family: "font1";
+}
+
+#wpp {
+    width: 315px;
+    height: 50px;
+    padding-top: 10px;
+    float: right;
+}
+
+#wpp img {
+    width: auto;
+    height: 50px;
+    float: right;
+}
+
+#wpp p {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    float: left;
+    font-family: "font1";
+}
+
+#face {
+    width: 295px;
+    height: 50px;
+    padding-top: 45px;
+    padding-left: 300px;
+    float: right;
+}
+
+#face img {
+    width: auto;
+    height: 50px;
+    float: right;
+}
+
+#face p {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    float: left;
+    font-family: "font1";
+}
