@@ -19,6 +19,11 @@
     src: url(fontes_onelife/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf)
 }
 
+@font-face{
+    font-family: "font4";
+    src: url(fontes_onelife/Big_Shoulders_Display/static/BigShouldersDisplay-Regular.ttf);
+}
+
 main{
     width: 100%;
     height: 2800px;
@@ -79,7 +84,7 @@ main{
 }
 
 #cabecalho a{
-    font-family: "fonte1";
+    font-family: "font4";
     text-decoration: none;
     color: black;
     font-weight: 400;
