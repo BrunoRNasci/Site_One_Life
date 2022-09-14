@@ -349,10 +349,9 @@ main{
 
 #paraquedas2{
     position: relative;
-    width: 685px;
+    width: 670px;
     height: 630px;
     float: right;
-    left: 50px;
     top: 145px;
 
 }
@@ -538,4 +537,313 @@ footer{
     color: white;
     padding-top: 5px;
     float: left;
+}
+
+@media only screen and (max-width:480px){
+    #balao_superior, #paraquedas2, #imagens_meio, #logo_footer{
+        display: none;
+    }
+
+    #logo{
+        width: 40px;
+        height: auto;
+        padding: 0px;
+        float: left;
+    }
+
+    #logo a{
+      display: none;
+    }
+
+    #logo img{
+        width: 40px;
+        height: auto;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    #cabecalho a{
+        font-size: 20px;
+        padding: 45px 0px 0px 15px;
+        float: left;
+    }
+
+    #titulos h1{
+        font-size: 33px !important;
+        padding: 20px 0px 0px 25px !important;
+        float: left;
+    }
+
+    #titulos h2{
+        font-size: 33px !important;
+        line-break: auto;
+        padding: 20px 0px 0px 10px !important;
+        float: left;
+    }
+
+    #titulos h3{
+        font-size: 33px !important;
+        padding: 20px 0px 0px 100px !important;
+        float: left;
+    }
+
+    #saiba_mais{
+        width: 200px;
+        height: 90px;
+        top: 300px;
+        left: 130px;
+        float: left;
+    }
+
+    #paraquedas1{
+        width: auto;
+        height: 200px;
+        top: 130px;
+        left: 150px;
+        float: left;
+    }
+
+    #estatisticas{
+        top: 650px;
+        left: 30px;
+    }
+
+    #stats2{
+        margin-left: 10px;
+    }
+
+    #main_meio{
+        height: 900px;
+    }
+
+    #textos_meio h1{
+        width: auto;
+        font-size: 100px;
+        padding: 0px 0px 0px 460px;
+        float: left;
+    }
+
+    #txt1{
+        width: 400px;
+        font-size: 20px;
+        padding: 0px 40px 0px 0px;
+    }
+
+    #txt2{
+        width: 400px;
+        font-size: 20px;
+        padding: 25px 40px 0px 0px;
+    }
+
+    #txt3{
+        width: 400px;
+        font-size: 20px;
+        padding: 25px 40px 0px 0px;
+    }
+
+    #textos_bottom h1{
+        width: auto;
+        font-size: 100px;
+        padding: 0px 0px 0px 15px;
+        float: left;
+    }
+
+    #txt4{
+        width: 400px;
+    }
+
+    #txt5{
+        width: 400px;
+        padding-top: 10px;
+    }
+
+    footer{
+        height: 240px;
+    }
+
+    #contatos{
+        width: 480px;
+        margin: 0px;
+    }
+
+    #contatos h1{
+        font-size: 30px;
+        padding: 0px 90px 0px 0px;
+    }
+
+    #insta{
+        width: 200px;
+        padding: 50px 0px 0px 20px;
+    }
+
+    #insta p{
+        font-size: 25px;
+    }
+
+    #insta img{
+        width: auto;
+        height: 30px;
+        padding-top: 3px;
+    }
+
+    #gmail{
+        width: 200px;
+        padding: 150px 0px 0px 20px;
+    }
+
+    #gmail p{
+        font-size: 25px;
+    }
+
+    #gmail img{
+        width: auto;
+        height: 30px;
+        padding-top: 3px;
+    }
+
+    #wpp{
+        position: relative;
+        width: 230px;
+        float: right;
+        padding-top: 15px;
+    }
+
+    #wpp p{
+        font-size: 25px;
+    }
+
+    #wpp img{
+        width: auto;
+        height: 30px;
+    }
+
+    #face{
+        width: 230px;
+    }
+
+    #face p{
+        font-size: 25px;
+    }
+
+    #face img{
+        width: auto;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    @media only screen and (max-width:720px){
+        #imagens, #imagens_meio, #paraquedas2, #logo_footer{
+            display: none;
+        }
+        
+        #logo{
+            width: auto;
+            padding: 0px;
+        }
+
+        #logo img{
+            padding-left: 20px;
+        }
+       
+        #logo a{
+            display: none;
+        }
+
+        #cabecalho a{
+            font-size: 30px;
+            padding-left: 15px;
+            padding-right: 5px;
+            float: right;
+        }
+
+        #top_main{
+            height: 640px;
+        }
+
+        #titulos{
+            padding-top: 40px;
+            height: 200px;
+        }
+
+        #titulos h1{
+            padding: 10px 0px 0px 40px;
+            margin: 0;
+        }
+
+        #titulos h2{
+            padding: 10px 0px 0px 20px;
+        }
+
+        #titulos h3{
+            padding-left: 150px;
+            margin: 0;
+        }
+
+        #saiba_mais{
+            top: 360px;
+            left: 130px;
+        }
+
+        #estatisticas{
+            top: 500px;
+            left: 150px;
+        }
+
+        #stats2{
+            padding-left: 15px;
+        }
+
+        #main_meio{
+            height: 800px;
+        }
+
+        #textos_meio{
+            padding: 0px;
+            height: 740px;
+        }
+
+        #textos_meio h1{
+            padding: 0px 140px 0px 0px;
+        }
+
+        #txt1{
+            padding: 0px 70px 0px 0px;
+        }
+
+        #txt2{
+            padding: 15px 70px 0px 0px;
+        }
+
+        #txt3{
+            padding: 15px 70px 0px 0px;
+        }
+
+        #main_bottom{
+            height: 700px;
+        }
+
+        #textos_bottom h1{
+            padding: 50px 0px 0px 50px;
+            font-size: 130px;
+        }
+
+        #txt4{
+            padding: 20px 0px 0px 50px;
+        }
+
+        #txt5{
+            padding: 20px 0px 0px 50px;
+        }
+
+        footer{
+            height: 230px !important;
+        }
+
+        #contatos{
+            margin: 0px;
+            padding-top: 10px;
+            padding-right: 50px;
+        }
+    }
 }
